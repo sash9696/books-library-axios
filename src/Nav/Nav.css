@@ -1,0 +1,12 @@
+.nav{
+    background-color: black;
+    display: flex;
+    color: white;
+    height: 40px;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 0.6rem;
+    font-weight: 100;
+    position: sticky;
+    top: 0;
+}
