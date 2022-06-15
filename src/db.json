@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "title": "b",
+      "author": "b",
+      "genre": "b",
+      "summary": "b",
+      "id": 1
+    },
+    {
+      "title": "Crisis",
+      "author": "Robin Cook",
+      "genre": "Mystery thriller",
+      "summary": "The terrifying story of a doctor who is the victim of a medical malpractise crisis",
+      "id": 2
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Drama",
+      "summary": "Magical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure",
+      "id": 3
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "summary": "a young wizard who discovers his magical heritage on his eleventh birthday",
+      "id": 4
+    },
+    {
+      "title": "Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery thriller",
+      "summary": "It is Dan Brown's second novel to include the character Robert Langdon",
+      "id": 5
+    },
+    {
+      "title": "two states",
+      "author": "chetan bhagat",
+      "genre": "comedy",
+      "summary": "this is a boring book",
+      "id": 6
+    },
+    {
+      "title": "title",
+      "author": "author",
+      "genre": "comedy",
+      "summary": "this is a comedy book",
+      "id": 6
+    },
+    {
+      "title": "mr",
+      "author": "dan brown",
+      "genre": "comedy",
+      "summary": "this is a summary",
+      "id": 7
+    }
+  ]
+}
