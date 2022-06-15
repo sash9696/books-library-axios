@@ -1,7 +1,9 @@
+import axios from "axios";
 import React from "react";
+import { url } from "../../api/api";
 import "./Book.css";
 
-function Book({ id, title, author, genre, summary }) {
+function Book({ id, title, author, genre, summary, updateBook, deleteBook }) {
   return (
     <div className="card">
       <h4 className="card_title">{title} </h4>
@@ -11,8 +13,12 @@ function Book({ id, title, author, genre, summary }) {
       </div>
       <p className="card_summary">{summary} </p>
       <div className="card_buttons">
-        <button className="button">Edit</button>
-        <button className="button">Delete</button>
+        <button onClick={() => updateBook(id)} className="button">
+          Edit
+        </button>
+        <button onClick={() => deleteBook(id)} className="button">
+          Delete
+        </button>
       </div>
     </div>
   );

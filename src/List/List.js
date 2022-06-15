@@ -2,7 +2,7 @@ import React from "react";
 import "./List.css";
 import Book from "./Book/Book";
 
-function List({ books }) {
+function List({ books, updateBook, deleteBook }) {
   return (
     <div className="list">
       {books?.map((book, index) => {
@@ -16,6 +16,8 @@ function List({ books }) {
             author={author}
             genre={genre}
             summary={summary}
+            updateBook={updateBook}
+            deleteBook={deleteBook}
           />
         );
       })}
